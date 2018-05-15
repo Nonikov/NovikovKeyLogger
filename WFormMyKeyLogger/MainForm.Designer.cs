@@ -1,4 +1,4 @@
-﻿namespace WFormMyKyeLogger
+﻿namespace WFormMyKeyLogger
 {
     partial class MainForm
     {

